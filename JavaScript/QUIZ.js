@@ -253,7 +253,7 @@ function fimDoJogo() {
 
 var botao = document.querySelector(".Bresp");
 botao.onclick = function VerResposta(){
-    window.open('indexRESPOSTAS.html');
+    window.location.href = 'indexRESPOSTAS.html'
 }
 
 function Tentar(){

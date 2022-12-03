@@ -1,0 +1,137 @@
+*{
+    font-family: arial impact;
+}
+
+body{
+    background-color: rgb(71, 235, 247)
+}
+
+
+#HeaderInteração{
+    margin-top: -0.58cm;
+    margin-left: -5.3cm;
+
+}
+
+
+#header-1{
+    width: 100%;
+    height: 2.648cm;
+    background-color: rgb(44, 44, 44);
+    margin-top: none;
+    text-align: left;  
+}
+
+#divisão{
+    
+    height: 0.5cm;
+    background-color:rgb(48, 174, 180);
+}
+#body{
+    height: 100vh;
+    background-color:rgba(199, 240, 85, 0.801);
+    
+}
+
+.logosite{
+    margin-top: -2.97cm;
+    margin-left: -4.3cm;
+    position: absolute;
+ }
+.logosite :hover{
+    border-bottom: none;
+ }
+
+
+main{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.botoes ul {
+    margin-left: 2.22cm;
+  }
+  .botoes ul li{
+      margin-left: 1cm;
+      margin-top: 2.1cm;
+      display: inline-block;
+  }
+  
+  .botoes ul li a{
+      text-decoration: none;
+      font-size: 19.5px;
+      text-transform: uppercase;
+  }
+  
+  .botoes ul li a:hover{
+      color: black;
+      transition: 0.4s;
+      border-bottom: 2.5px solid black;
+  }
+  
+  
+  
+  .Bmenu{
+      margin-left: 0.1cm;
+      color: rgb(48, 174, 180);
+      font-family: arial impact;
+      text-shadow: 0 0 5px black, 0 0 2px black;
+  }
+  
+  [class*="B-"] {
+      color: rgb(48, 174, 180);
+      text-shadow: 0 0 5px black, 0 0 2px black;
+      font-family: arial impact;
+  }
+
+.busca{
+    padding-right: 1cm;
+    float: right;
+    margin-top: 1.5cm;
+    margin-right: 0.5cm;
+}
+.instagram-item{
+    margin-right: 15px;
+}
+.facebook-item{
+    margin-right: 15px;
+}
+
+
+
+.PAPAGAIO{
+    margin-top: 20px;
+    margin-left: 12cm;
+    border: 9px solid rgb(48, 174, 180);
+}
+.introducao{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    text-shadow: 0 0 1px black, 0 0 3px black;
+}
+.info{
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 1cm;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    text-shadow: 0 0 1px black, 0 0 2px black;
+}
+.bots ul li{ 
+    list-style-type: none;
+    display: inline-block;
+}
+.bots{
+    position: absolute;
+}
+.b-seguinte{
+    margin-left: 36cm;
+}
+
+
+
+
+
+
+

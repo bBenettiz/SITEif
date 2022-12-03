@@ -1,0 +1,220 @@
+*{
+font-family: arial impact;
+}
+
+body{
+    background-color: rgb(71, 235, 247)
+}
+
+
+#HeaderInteração{
+    margin-top: -0.58cm;
+    margin-left: -5.3cm;
+
+}
+
+
+#header-1{
+    width: 100%;
+    height: 2.648cm;
+    background-color: rgb(44, 44, 44);
+    margin-top: none;
+    text-align: left;  
+}
+
+#divisão{
+    
+    height: 0.5cm;
+    background-color:rgb(48, 174, 180);
+}
+#body{
+    height: 100vh;
+    background: linear-gradient(110deg, rgb(203, 226, 222) 60%, #bff3e8 60%);
+
+    
+}
+
+.logosite{
+  margin-top: -2.97cm;
+  margin-left: -4.3cm;
+  position: absolute;
+}
+.logosite :hover{
+    border-bottom: none;
+ }
+
+
+main{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.botoes ul {
+  margin-left: 2.22cm;
+}
+.botoes ul li{
+    margin-left: 1cm;
+    margin-top: 2.1cm;
+    display: inline-block;
+}
+
+.botoes ul li a{
+    text-decoration: none;
+    font-size: 19.5px;
+    text-transform: uppercase;
+}
+
+.botoes ul li a:hover{
+    color: black;
+    transition: 0.4s;
+    border-bottom: 2.5px solid black;
+}
+
+
+
+.Bmenu{
+    margin-left: 0.1cm;
+    color: rgb(48, 174, 180);
+    font-family: arial impact;
+    text-shadow: 0 0 5px black, 0 0 2px black;
+}
+
+[class*="B-"] {
+    color: rgb(48, 174, 180);
+    text-shadow: 0 0 5px black, 0 0 2px black;
+    font-family: arial impact;
+}
+
+.busca{
+  padding-right: 1cm;
+  float: right;
+  margin-top: 1.5cm;
+  margin-right: 0.5cm;
+}
+.instagram-item{
+  margin-right: 15px;
+}
+.facebook-item{
+  margin-right: 15px;
+}
+
+
+
+
+
+.wrapper{
+    margin-top: -0.86cm;
+    text-align: center;
+  }
+  
+  .wrapper h1{
+    padding-top: 2cm;
+    font-family: arial impact;
+    font-size: 48px;
+    color: rgb(44, 44, 44);
+    margin-bottom: 25px;
+    text-shadow: 0 0 1px black, 0 0 3px black;
+  }
+  .parag{
+    text-align: justify;
+    margin-left: 5.5cm;
+    margin-right: 5.5cm;
+    padding-top: 2cm;
+    font-family: arial impact;
+    font-size: 25px;
+    color: rgb(44, 44, 44);
+    margin-bottom: 25px;
+    text-shadow: 0 0 1px black, 0 0 3px black;
+  }
+
+  
+  .our_team{
+    padding-top: 1.5cm;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .our_team .team_member{
+    width: 250px;
+    margin: 5px;
+    background: none;
+    padding: 20px 10px;
+  }
+
+  [class*="img-"] {
+    border-radius: 50%;
+}
+  
+  .our_team .team_member .member_img{
+    background: rgb(56, 56, 56);  
+    max-width: 190px;
+    width: 100%;
+    height: 190px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .our_team .team_member .member_img img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .our_team .team_member h3{
+    text-transform: uppercase;
+    color: black;
+    font-family: arial impact;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0 0px;
+    text-shadow: 0 0 1px black, 0 0 2px black;
+  }
+  
+  .our_team .team_member span{
+    font-size: 15px;
+    color: rgb(44, 44, 44);
+    font-family: arial impact;
+    text-shadow: 0 0 1px black, 0 0 2px black;
+  }
+  
+  .our_team .team_member p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(44, 44, 44);
+    font-family: arial impact;
+    text-shadow: 0 0 1px black, 0 0 2px black;
+  }
+  
+  .our_team .team_member .member_img .social_media{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: rgba(0,0,0,0.65);
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+     transition: all 0.5s ease;
+  }
+  
+  .our_team .team_member .member_img .social_media .item{
+    margin: 0 10px;
+  }
+  
+  .our_team .team_member .member_img .social_media .fab{
+    color: #8c7ae6;
+    font-size: 20px;
+  }
+  
+  .our_team .team_member .member_img:hover .social_media{
+    transform: scale(1);
+  }

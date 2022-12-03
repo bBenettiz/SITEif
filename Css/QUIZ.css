@@ -1,0 +1,159 @@
+*{
+    font-family: arial impact;
+}
+
+body{
+    background-color: rgb(71, 235, 247);
+}
+
+
+#HeaderInteração{
+    margin-top: -0.58cm;
+    margin-left: -5.3cm;
+
+}
+
+
+#header-1{
+    width: 100%;
+    height: 2.648cm;
+    background-color: rgb(44, 44, 44);
+    margin-top: none;
+    text-align: left;  
+}
+
+#divisão{
+    
+    height: 0.5cm;
+    background-color:rgb(48, 174, 180);
+}
+#body{
+    height: 100vh;
+    background: linear-gradient(110deg, rgb(203, 226, 222) 60%, #bff3e8 60%);
+    
+}
+
+.logosite{
+    margin-top: -2.97cm;
+    margin-left: -4.3cm;
+    position: absolute;
+ }
+.logosite :hover{
+    border-bottom: none;
+ }
+
+
+main{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.botoes ul {
+    margin-left: 2.22cm;
+  }
+  .botoes ul li{
+      margin-left: 1cm;
+      margin-top: 2.1cm;
+      display: inline-block;
+  }
+  
+  .botoes ul li a{
+      text-decoration: none;
+      font-size: 19.5px;
+      text-transform: uppercase;
+  }
+  
+  .botoes ul li a:hover{
+      color: black;
+      transition: 0.4s;
+      border-bottom: 2.5px solid black;
+  }
+  
+  
+  
+  .Bmenu{
+      margin-left: 0.1cm;
+      color: rgb(48, 174, 180);
+      font-family: arial impact;
+      text-shadow: 0 0 5px black, 0 0 2px black;
+  }
+  
+  [class*="B-"] {
+      color: rgb(48, 174, 180);
+      text-shadow: 0 0 5px black, 0 0 2px black;
+      font-family: arial impact;
+  }
+
+.busca{
+    padding-right: 1cm;
+    float: right;
+    margin-top: 1.5cm;
+    margin-right: 0.5cm;
+}
+.instagram-item{
+    margin-right: 15px;
+}
+.facebook-item{
+    margin-right: 15px;
+}
+
+.instrucs{
+    position: relative;
+    padding-left: 4.5cm;
+}
+.explic{
+    font-size: 40px;
+    color: rgb(44, 44, 44);
+    position: absolute;
+    margin-left: 3.78cm;
+    text-shadow: 0 0 1px black, 0 0 3px black;
+}
+.explic2{
+    text-align: justify;
+    padding-left: 1.5cm;
+    padding-right: 7cm;
+    padding-top: 3cm;
+    position: absolute;
+    color: rgb(44, 44, 44);
+    text-shadow: 0 0 1px black, 0 0 1px black;
+    
+}
+.inicarQUIZ {
+    margin-left: 16cm;
+    margin-top: 20cm;
+    position: absolute;
+}
+.inicarQUIZ ul{
+    list-style-type: none;
+}
+.inicarQUIZ ul li a{
+    text-decoration: none;
+}
+.inicarQUIZ ul li :hover{
+    color: black;
+    cursor: pointer;
+}
+.Comecar{
+    margin-left: -0.9cm;
+    background-color: rgb(44, 44, 44);
+    color: rgb(48, 174, 180);
+    cursor: pointer;
+    font-family: arial impact;
+    font-size: 40px;
+    height: 44px;
+    border: 2px solid rgb(44, 44, 44);
+    padding: 0.4rem;
+    border-radius: 6px;
+    text-shadow: 0 0 2px black, 0 0 4px black;
+}
+
+
+
+
+
+
+
+
+
+
+

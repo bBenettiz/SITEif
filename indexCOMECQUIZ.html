@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./Css/COMECQUIZ.css">
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css"/>
+    
+    <title>Vidas em Risco</title>
+
+</head>
+
+<body id="corpo">
+    <header id="menu-principal">
+        <main>
+            
+            <div id="header-1">
+                
+                <div class="botoes">
+                    <ul>
+                        <div class="busca">
+                            <a href="https://www.instagram.com/vidas_emrisco/" class="instagram-item"><img src="./ImagensSITE/insta3.png"></a>
+                            <a href="https://www.facebook.com/profile.php?id=100088105341255" class="facebook-item"><img src="./ImagensSITE/face.png"></a>
+                            <a href="https://twitter.com/VidasEmRisco" class="twitter-item"><img src="./ImagensSITE/twit3.png"></a>
+                        </div>
+
+                        <li>
+                            <img src="imagensSITE/logo.png" class="logosite" width="160" height="130">                        </li>
+
+                        <li>
+                            <a class="Bmenu" href="index.html">
+                                Menu
+                            </a>
+                        </li>
+                        <li>
+                            <a class="B-animais" href="indexANIMAIS.html">
+                                Os Animais
+                            </a>
+                        </li>
+                        <li>
+                            <a class="B-quiz" href="indexQUIZ.html">
+                                Quiz
+                            </a>
+                        </li>
+                        <li>
+                            <a class="B-nos" href="indexNOS.html">
+                                Sobre nós
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+
+            <div id="divisão">
+            </div>
+
+
+            <div id="body">
+                    <section class='conteudos'>
+    
+                        <h1>QUIZ</h1>
+            
+                        <article class='centro' id='instrucoes'>
+                            Leia a pergunta e selecione a resposta correta!
+                        </article>
+            
+                        <article class='questoes'>
+                            
+                            <header class='questao'>
+                                <span id='numQuestao'></span>
+                                <h2 id='pergunta'></h2>
+                            </header>
+            
+                            <div class='corpo'>
+                                <ol type='A' id='alternativas'>
+                                    <li id='a' value='1A' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                                    <li id='b' value='1B' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                                    <li id='c' value='1C' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                                    <li id='d' value='1D' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                                </ol>
+                            </div>
+                        </article>
+                        
+                        <article id='aviso'>Questão <span id='numero'></span> de <span id='total'></span></article>
+                        
+
+                    <div class="TentarNovamente">
+                        <button type="button" class="Bdnv" onclick="Tentar()" >
+                            Tentar Novamente
+                        </button>
+                    </div>
+
+                    <div class="Verresp">
+                        <button type="button" class="Bresp" onclick="VerResposta()" >
+                            Ver respostas
+                        </button>
+                    </div>
+
+                    </section>
+            </div>
+            
+           
+
+        </main>
+
+        
+
+
+
+    </header>
+    <script type="text/javascript" src="./JavaScript/QUIZ.js"></script>
+</body>
+
+</html>

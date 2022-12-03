@@ -1,0 +1,321 @@
+*{
+    font-family: arial impact;
+}
+
+body{
+    background-color: rgb(71, 235, 247)
+}
+
+
+#HeaderInteração{
+    margin-top: -0.58cm;
+    margin-left: -5.3cm;
+
+}
+
+
+#header-1{
+    width: 100%;
+    height: 2.648cm;
+    background-color: rgb(44, 44, 44);
+    margin-top: none;
+    text-align: left;  
+}
+
+#divisão{
+    
+    height: 0.5cm;
+    background-color:rgb(48, 174, 180);
+}
+#body{
+    height: 100vh;
+    background: linear-gradient(110deg, rgb(203, 226, 222) 60%, #bff3e8 60%);
+
+    
+}
+
+.logosite{
+    margin-top: -2.97cm;
+    margin-left: -4.3cm;
+    position: absolute;
+ }
+.logosite :hover{
+    border-bottom: none;
+ }
+
+
+main{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.botoes ul {
+    margin-left: 2.22cm;
+  }
+  .botoes ul li{
+      margin-left: 1cm;
+      margin-top: 2.1cm;
+      display: inline-block;
+  }
+  
+  .botoes ul li a{
+      text-decoration: none;
+      font-size: 19.5px;
+      text-transform: uppercase;
+  }
+  
+  .botoes ul li a:hover{
+      color: black;
+      transition: 0.4s;
+      border-bottom: 2.5px solid black;
+  }
+  
+  
+  
+  .Bmenu{
+      margin-left: 0.1cm;
+      color: rgb(48, 174, 180);
+      font-family: arial impact;
+      text-shadow: 0 0 5px black, 0 0 2px black;
+  }
+  
+  [class*="B-"] {
+      color: rgb(48, 174, 180);
+      text-shadow: 0 0 5px black, 0 0 2px black;
+      font-family: arial impact;
+  }
+
+.busca{
+    padding-right: 1cm;
+    float: right;
+    margin-top: 1.5cm;
+    margin-right: 0.5cm;
+}
+.instagram-item{
+    margin-right: 15px;
+}
+.facebook-item{
+    margin-right: 15px;
+}
+
+#body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-bottom: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: arial impact;
+    text-shadow: 0 0 1px black, 0 0 2px black;
+}
+
+h1 {
+    color: rgb(44, 44, 44);
+    text-align: center;
+    font-size: 40px;
+    margin: 0.625rem;
+    text-shadow: 0 0 1px black, 0 0 3px black;
+}
+
+.centro {
+    text-align: center;
+}
+
+.questao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#numQuestao {
+    display: block;
+    background: rgb(48, 174, 180);
+    padding: 4px 10px 2px 10px;
+    border-radius: 50%;
+}
+
+#pergunta {
+    margin-left: 1rem;
+    color: rgb(44, 44, 44);
+    text-shadow: 0 0 1px black, 0 0 2px black;
+}
+#perguntaELE {
+    margin-left: 0.2cm;
+    color: rgb(44, 44, 44);
+    text-shadow: 0 0 1px black, 0 0 2px black;
+}
+
+/* article que acomoda a questao completa */
+.questoes {
+    padding: 1.5rem;
+    border: 2px solid rgb(44, 44, 44);
+    text-shadow: 0 0 1px black, 0 0 2px black;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.questoes ol li {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.questoes ol li:hover {
+    background: rgb(48, 174, 180);
+    cursor: pointer;
+}
+
+.bloqueado {
+    display: none;
+}
+
+.bloqueado li:hover {
+    display: none;
+}
+
+#instrucoes {
+    background-color: rgb(48, 174, 180);
+    color: black;
+    padding: 0.625rem;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    animation: piscar .75s infinite alternate;
+}
+
+#aviso {
+    color: black;
+    text-shadow: 0 0 1px black, 0 0 2px black;
+}
+
+.TentarNovamente{
+    padding-top: 60px;
+}
+
+.Bdnv {
+  background-color: rgb(44, 44, 44);
+  border-radius: 6px;
+  border-width: 0;
+  box-sizing: border-box;
+  color: rgb(48, 174, 180);
+  cursor: pointer;
+  font-family: arial impact;
+  font-size: 100%;
+  height: 44px;
+  text-shadow: 0 0 2px black, 0 0 2px black;
+}
+.Bdnv:hover {
+    color: black;
+    transition: 0.4s;
+}
+.Bresp {
+    margin-top: 5px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 6px;
+    border-width: 0;
+    box-sizing: border-box;
+    color: rgb(48, 174, 180);
+    cursor: pointer;
+    font-family: arial impact;
+    font-size: 100%;
+    height: 44px;
+    text-shadow: 0 0 2px black, 0 0 2px black;
+  }
+  .Bresp:hover {
+      color: black;
+      transition: 0.4s;
+  }
+
+
+
+
+
+
+
+
+
+/* ANIMACAO */
+
+/* Animar o input */
+@keyframes piscar {
+    0% {
+        filter: drop-shadow(0 0 15px rgb(48, 174, 180));
+        -webkit-filter: drop-shadow(0 0 15px rgb(48, 174, 180));
+        -moz-filter: drop-shadow(0 0 15px rgb(48, 174, 180));
+        -o-filter: drop-shadow(0 0 15px rgb(48, 174, 180));
+        -ms-filter: drop-shadow(0 0 15px rgb(48, 174, 180));
+    }
+    100% {
+    }
+}
+
+.animar {
+    animation: piscar .75s infinite alternate;
+}
+
+.aparecer {
+    animation: aparecer .5s infinite alternate;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

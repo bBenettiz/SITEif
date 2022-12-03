@@ -151,6 +151,32 @@ main{
     text-align: center;
 }
 
+.Voltmen{
+    position: absolute;
+    margin-top: 25.5cm;
+}
+.Voltmen ul{
+list-style-type: none;
+}
+.BOTMEN{
+    text-decoration: none;
+    margin-left: 16cm;
+    background-color: rgb(44, 44, 44);
+    color: rgb(48, 174, 180);
+    cursor: pointer;
+    font-family: arial impact;
+    font-size: 40px;
+    height: 44px;
+    border: 2px solid rgb(44, 44, 44);
+    padding: 0.4rem;
+    border-radius: 6px;
+    text-shadow: 0 0 2px black, 0 0 4px black;
+}
+.Voltmen ul li :hover{
+    color: black;
+    cursor: pointer;
+}
+
 
 
 

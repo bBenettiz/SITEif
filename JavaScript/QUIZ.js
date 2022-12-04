@@ -250,7 +250,7 @@ function fimDoJogo() {
     // OCULTAR O ARTICLE DA QUESTAO
     articleQuestoes.style.display = 'none'
     resposta.disabled = false;
-    resposta.textContent = "VER RESPOSTAS"
+    resposta.textContent = "Ver Respostas"
         resposta.style.background = "rgb(44, 44, 44)";
 
 }

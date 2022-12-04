@@ -3,6 +3,8 @@ let instrucoes = document.querySelector('#instrucoes')
 let aviso = document.querySelector('#aviso')
 let resposta = document.querySelector('.Bresp')
 resposta.disabled = true;
+resposta.textContent = null
+resposta.style.background = "transparent";
 //let respostaEsta = document.querySelector('#respostaEsta')
 let pontos = 0 // pontos para o placar
 let placar = 0 // placar
@@ -248,6 +250,8 @@ function fimDoJogo() {
     // OCULTAR O ARTICLE DA QUESTAO
     articleQuestoes.style.display = 'none'
     resposta.disabled = false;
+    resposta.textContent = "VER RESPOSTAS"
+        resposta.style.background = "rgb(44, 44, 44)";
 
 }
 
